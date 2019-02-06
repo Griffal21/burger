@@ -1,0 +1,27 @@
+{
+  "name": "burger",
+  "version": "1.0.0",
+  "description": "burger_app_inspiredby_Alex's_example",
+  "main": "index.js",
+  "scripts": {
+    "test": "run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Griffal21/burger.git"
+  },
+  "keywords": [
+    "burger"
+  ],
+  "author": "Alan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Griffal21/burger/issues"
+  },
+  "homepage": "https://github.com/Griffal21/burger#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "mysql": "^2.16.0"
+  }
+}
