@@ -4,19 +4,19 @@
       <div class="form-group">
         <h3>Add a Burger.</h3>
         <input class="form-control" type="text" id="todo-input" placeholder="Add your Burger Here!"/>
-        <button class="btn btn-block btn-success" id="submit-btn">Add Burger</button>
+        <button class="btn btn-block btn-success" id="submit-btn">Add a Burger</button>
       </div>
     </form>
   </div>
   <div class="col-4">
-    <h3>Burger to Eat</h3>
+    <h3>Burgers to Eat</h3>
     <ul class="list-group">
     {{#each todoList}}
       {{#unless completed}}
         <li class="list-group-item">
           {{todo}} 
-          <button data-id="{{id}}" class="mark-complete btn btn-info">C</button>
-          <button data-id="{{id}}" class="delete btn btn-danger"> X </button>
+          <button data-id="{{id}}" class="mark-complete btn btn-info"><i class="fas fa-hamburger"></i></button>
+          <button data-id="{{id}}" class="delete btn btn-danger"> <i class="far fa-trash-alt"></i> </button>
         </li>
       {{/unless}}
     {{/each}}
@@ -29,7 +29,7 @@
       {{#if completed}}
       <li class="list-group-item">
         {{todo}}
-        <button data-id="{{id}}" class="delete btn btn-danger"> X </button>
+        <button data-id="{{id}}" class="delete btn btn-danger"> <i class="far fa-trash-alt"></i> </button>
       </li>
       {{/if}}
       {{/each}}

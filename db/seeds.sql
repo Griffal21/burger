@@ -1,9 +1,9 @@
-USE burger_db;
+USE todos_db;
 
 INSERT INTO todos
-  (burger_name)
+  (todo)
 VALUES
-  ("New Bacon-ings - Comes with Bacon"),
   ("Krabby Patty"),
-  ("Turkey Burger");
+  ("One of Bob's Burger of the Day"),
+  ("Burger DROP * TABLES--");
   

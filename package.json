@@ -1,24 +1,14 @@
 {
-  "name": "burger",
+  "name": "todo-list",
   "version": "1.0.0",
-  "description": "burger_app_inspiredby_Alex's_example",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "run"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Griffal21/burger.git"
-  },
-  "keywords": [
-    "burger"
-  ],
-  "author": "Alan",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Griffal21/burger/issues"
-  },
-  "homepage": "https://github.com/Griffal21/burger#readme",
   "dependencies": {
     "express": "^4.16.4",
     "express-handlebars": "^3.0.0",

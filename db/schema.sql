@@ -1,12 +1,12 @@
-DROP DATABASE IF EXISTS burger_db;
+DROP DATABASE IF EXISTS todos_db;
 
-CREATE DATABASE burger_db;
+CREATE DATABASE todos_db;
 
-USE burger_db;
+USE todos_db;
 
 CREATE TABLE todos (
   id INTEGER(11) NOT NULL AUTO_INCREMENT,
-  burger_name VARCHAR(255) NOT NULL,
-  devoured BOOLEAN DEFAULT false,
+  todo VARCHAR(255) NOT NULL,
+  completed BOOLEAN DEFAULT false,
   PRIMARY KEY (id)
 );
